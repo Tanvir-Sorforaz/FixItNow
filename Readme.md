@@ -21,11 +21,7 @@ FixItNow is a backend API for a home services marketplace. Customers can browse 
 
 ---
 
-## Tech Stack
 
-🛠️ **See [README.md](./README.md#-tech-stack) for complete technology specifications.**
-
----
 
 ## Features
 
@@ -248,14 +244,6 @@ Design your own schema for the following tables:
 > 🔧 **Note**: Customers can cancel a booking at any point before it reaches IN_PROGRESS status.
 
 ---
-
-## Submission
-
-📋 **See [README.md](./README.md) for submission guidelines, timeline, and marks.**
-
-
-
-
 
 
 
