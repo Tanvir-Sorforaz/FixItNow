@@ -9,6 +9,13 @@ model User {
   avatar             String?
   role               UserRole
   status             UserStatus         @default(ACTIVE)
+  technicianProfile  TechnicianProfile?
+  customerBookings  Booking[]          @relation("CustomerBookings")
+  technicianBookings Booking[]          @relation("TechnicianBookings")
+  reviewsWritten    Review[]           @relation("ReviewAuthor")
+  reviewsReceived   Review[]           @relation("ReviewTechnician")
+  payments          Payment[]          @relation("PaymentCustomer")
+  subscriptions     Subscription[]
   createdAt          DateTime           @default(now())
   updatedAt          DateTime           @updatedAt
 }
